@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="tbl.css" rel="stylesheet" />
+
+</head>
+<body>
+    <label>Id:</label>
+    <input type="text" id="txtid" />
+    <label>Name:</label>
+    <input type="text" id="txtname" />
+    <label>LastNAme:</label>
+    <input type="text" id="txtlast" />
+    <button id="add" onclick="add()">Add</button>
+    <button id="Dtable" onclick="Design1()">Design Table</button>
+    <button id="Dtable2" onclick="Design2()">Design Table2</button>
+    <button id="search1" onclick="search1()">Search Id1</button>
+    <button id="search2" onclick="search2()">Search Id2</button>
+    <button id="sort" onclick="sort()">Sort</button>
+    <button id="Dtable3" onclick="Design3()">Design Table3</button>
+    <hr />
+    <table id="table" class="">
+        <thead>
+            <tr id="tr">
+                <th>Id</th>
+                <th>Name</th>
+                <th>LastName</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>2</td>
+            <td>Reza</td>
+            <td>Mohebi</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>amir</td>
+            <td>ahmadi</td>
+        </tr></tbody>
+    </table>
+    <script src="tbl.js"></script>
+</body>
+</html>

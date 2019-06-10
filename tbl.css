@@ -1,0 +1,32 @@
+﻿
+.D1 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+    .D1 > thead > tr > th,
+    .D1 > tbody > tr > th,
+    .D1 > tfoot > tr > th,
+    .D1 > thead > tr > td,
+    .D1 > tbody > tr > td,
+    .D1 > tfoot > tr > td {
+        padding: 8px;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .D1 > tbody  {
+        border-top: 2px solid #ddd;
+    }
+    .D2 >tbody>tr:nth-of-type(odd){
+        background-color:gray;
+    }
+
+.D3 > tbody > tr:nth-of-type(even){
+    background-color:blueviolet;
+
+}
+
